@@ -6,6 +6,12 @@
 
 Setup and some basic examples to get you started in <u><b>less than 10 minutes</b></u>; *programming will never be the same for you after this!*
 
+In this short tutorial, you will:
+1. Sign up for Google Gemini 2 access
+2. Setup a portable version of Visual Studio Code (a.k.a. VSCode)
+3. Download and setup the Continue AI copilot with Gemini in VSCode
+4. Perform five quick examples to demonstrate the power of this technology
+
 ----------------------------------------------------------------------------
 
 ## Table of Contents
@@ -43,15 +49,21 @@ Setup and some basic examples to get you started in <u><b>less than 10 minutes</
 
 ## 0. Requirements
 
-REQUIREMENTS.
+I developed this tutorial on Windows 10.
 
 [Back to Top](#table-of-contents)
 
 ----------------------------------------------------------------------------
 
-## 1. Introduction
+## 1. Google Gemini Access
 
-INTRODUCTION.
+You have to get programmatic (i.e., API) access to use Google Gemini outside of their web-based offering.<sup>1</sup>
+
+1. Go to Google AI Studio and sign in with Google account
+2. Click on "Get API key"
+3. An API key will be generated in about 30 seconds, copy the key down and do not share with anyone
+
+[![.img/copilot_fig1.png](.img/copilot_fig1.png)](#nolink)
 
 [Back to Top](#table-of-contents)
 
@@ -85,7 +97,7 @@ NEXT STEPS.
 
 **Description** | **URL Link**
 --- | ---
-null | null
+1 | https://gemini.google.com/app
 
 [Back to Top](#table-of-contents)
 
