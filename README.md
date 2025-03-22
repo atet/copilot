@@ -24,27 +24,19 @@ You have to get programmatic (i.e., API) access to use Google Gemini outside of 
 
 [![.img/copilot_fig1.png](.img/copilot_fig1.png)](#nolink)
 
-[Back to Top](#table-of-contents)
-
-----------------------------------------------------------------------------
-
 ## Visual Studio Code Setup
 
 You can use VSCode without installing it by just downloading the "portable" `*.zip` version.
 
 4. Download the `*.zip` version here: https://code.visualstudio.com/download
-5. Extract the file
+5. Extract the file, may take a few minutes
 6. Within the extracted directory, add a new folder named "`data`"
 7. Click on `Code.exe` to start up VSCode
 8. Once VSCode is running, click on the Extensions tab in the left side menu (or use keyboard shortcut `CTRL+SHIFT+X`)
 
 [![.img/copilot_fig2.png](.img/copilot_fig2.png)](#nolink)
 
-[Back to Top](#table-of-contents)
-
-----------------------------------------------------------------------------
-
-## AI Copilot Extension Setup
+## AI Copilot Setup
 
 We will use the Continue extension to leverage Google Gemini to help us code within VSCode.
 
@@ -53,20 +45,25 @@ We will use the Continue extension to leverage Google Gemini to help us code wit
 11. Once it's done installing, click on the Continue icon in the left side menu
 12. Click on "Select Model" and then "Add Chat Model"
 13. This will open a window that will allow you to select:
-   - "Provider: Google Gemini API"
-   - "Model: Gemini 2 Flash"
-   - "API key: `<ENTER YOUR API KEY FROM STEP #3>`"
+   - Provider: "Google Gemini API"
+   - Model: "Gemini 2 Flash"
+   - API key: "`<ENTER YOUR API KEY FROM STEP #3>`"
 14. Click on Connect and now you can ask questions like, "*Hi Gemini, what is my API usage rate limit?*"
 
 [![.img/copilot_fig3.png](.img/copilot_fig3.png)](#nolink)
 
-[Back to Top](#table-of-contents)
+## Additional Data for Specific Context
 
-----------------------------------------------------------------------------
+It looks like Gemini's general knowledgebase doesn't have specific information about its own API rate limits! So let's add a data source that will help out.
 
-## 4. Next Steps
+15. Type an ampersand ("`@`") and click on Docs in the menu that pops up
+16. Scroll to the bottom of the Docs list and choose "+ Add Docs"
+17. In the window that pops up, let's add a web link to Google's documentation on Gemini API limits:
+   - Title: "Gemini"
+   - Start URL: "https://ai.google.dev/gemini-api/docs/rate-limits"
+18. When you click add, Continue will upload the information from the URL you entered, depending on the amount of data, **this can take >5 minutes to finish indexing**; you can come back to this later and see that asking the same question again with the `@Gemini` tag will result in a much better answer
 
-NEXT STEPS.
+[![.img/copilot_fig4.png](.img/copilot_fig4.png)](#nolink)
 
 [Back to Top](#table-of-contents)
 
