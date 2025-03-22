@@ -7,61 +7,20 @@
 Setup and some basic examples to get you started in <u><b>less than 10 minutes</b></u>; *programming will never be the same for you after this!*
 
 In this short tutorial, you will:
-1. Sign up for Google Gemini 2 access
-2. Setup a portable version of Visual Studio Code (a.k.a. VSCode)
-3. Download and setup the Continue AI copilot with Gemini in VSCode
-4. Perform five quick examples to demonstrate the power of this technology
+- Sign up for Google Gemini AI access
+- Setup Visual Studio Code (a.k.a. VSCode)
+- Download and setup the AI copilot with Gemini in VSCode
+- Perform five quick examples to demonstrate the power of this technology
 
-----------------------------------------------------------------------------
+Note that I developed this tutorial on Windows 10, Windows 11 and MacOS should be very similar.
 
-## Table of Contents
+## Google Gemini Access
 
-* [0. Requirements](#0-requirements)
-* [1. Introduction](#1-introduction)
-* [2. Installation](#2-installation)
-* [3. Basic Examples](#3-basic-examples)
-* [4. Next Steps](#4-next-steps)
+You have to get programmatic (i.e., API) access to use Google Gemini outside of their web-based, chat offering.
 
-### Supplemental
-
-* [Other Resources](#other-resources)
-* [Troubleshooting](#troubleshooting)
-
-> NOTE: Make sure there's spacing to allow Markdown to work with HTML elements
-
-<details open>
-<summary>Want to ruin the surprise?</summary>
-
-- Thing 1
-- Thing 2
-
-</details>
-
-<details>
-<summary>Want a surprise? (CLICK TO EXPAND)</summary>
-
-1. Thing A
-2. Thing B
-
-</details>
-
-----------------------------------------------------------------------------
-
-## 0. Requirements
-
-I developed this tutorial on Windows 10.
-
-[Back to Top](#table-of-contents)
-
-----------------------------------------------------------------------------
-
-## 1. Google Gemini Access
-
-You have to get programmatic (i.e., API) access to use Google Gemini outside of their web-based offering.<sup>1</sup>
-
-1. Go to Google AI Studio and sign in with Google account
-2. Click on "Get API key"
-3. An API key will be generated in about 30 seconds, copy the key down and do not share with anyone
+1. Go to Google AI Studio and sign in with your Google account at https://aistudio.google.com/welcome
+2. After signing in, click on "Get API key"
+3. It may take up to 30 seonds to generate an API key, copy the key down for a later step, **do not share your API key**
 
 [![.img/copilot_fig1.png](.img/copilot_fig1.png)](#nolink)
 
@@ -69,17 +28,37 @@ You have to get programmatic (i.e., API) access to use Google Gemini outside of 
 
 ----------------------------------------------------------------------------
 
-## 2. Installation
+## Visual Studio Code Setup
 
-INSTALLATION.
+You can use VSCode without installing it by just downloading the "portable" `*.zip` version.
+
+4. Download the `*.zip` version here: https://code.visualstudio.com/download
+5. Extract the file
+6. Within the extracted directory, add a new folder named "`data`"
+7. Click on `Code.exe` to start up VSCode
+8. Once VSCode is running, click on the Extensions tab in the left side menu (or use keyboard shortcut `CTRL+SHIFT+X`)
+
+[![.img/copilot_fig2.png](.img/copilot_fig2.png)](#nolink)
 
 [Back to Top](#table-of-contents)
 
 ----------------------------------------------------------------------------
 
-## 3. Basic Examples
+## AI Copilot Extension Setup
 
-BASIC EXAMPLES.
+We will use the Continue extension to leverage Google Gemini to help us code within VSCode.
+
+9. Search for "Conitue" in the Extensions search bar
+10. Install the Continue extension from continue.dev
+11. Once it's done installing, click on the Continue icon in the left side menu
+12. Click on "Select Model" and then "Add Chat Model"
+13. This will open a window that will allow you to select:
+   - "Provider: Google Gemini API"
+   - "Model: Gemini 2 Flash"
+   - "API key: `<ENTER YOUR API KEY FROM STEP #3>`"
+14. Click on Connect and now you can ask questions like, "*Hi Gemini, what is my API usage rate limit?*"
+
+[![.img/copilot_fig3.png](.img/copilot_fig3.png)](#nolink)
 
 [Back to Top](#table-of-contents)
 
@@ -97,7 +76,7 @@ NEXT STEPS.
 
 **Description** | **URL Link**
 --- | ---
-1 | https://gemini.google.com/app
+Google Gemini Web-Based Functionality (this is different than programmatic API access) | https://gemini.google.com/app
 
 [Back to Top](#table-of-contents)
 
