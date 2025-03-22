@@ -69,8 +69,8 @@ It looks like Gemini's general knowledgebase doesn't have specific information a
 
 ## Programming with an AI Copilot
 
-19. Close any tabs in the main body to the right, right-click and select "New Text File" (or CTRL+N)
-20. Copy and paste the following incomplete Python function into the new text file:
+19. Close any tabs in the main body to the right, right-click and select "New Text File" (or `CTRL+N`)
+20. Copy and paste the following **incomplete** Python function into the new text file:
 
 ```python
 def add(x, y):
@@ -92,7 +92,7 @@ If your results are similar to mine, Gemini got rid of all the comments we had; 
 24. Highlight the new code, right click, select "Continue" → "Write Comments for this Code" 
 25. You can accept what Gemini documented for you or reject and try again for a slightly different result
 26. Highlight the code again and select "Continue" → "Add Highlighted Code to Context" (or `CTRL+L`) to move the selected code into the chat window
-17. Now you can have a discussion about the code and ask Gemini to do anything, like changing it (e.g., "*Change this function so that it subtracts instead*"), asking for a detailed explanation of what's going on, and even trying something like "*[ELI5](#troubleshooting)*" for dense and complex code
+17. Now you can have a focused discussion with Gemini to do things like changing the code (e.g., "*Change this function so that it subtracts instead*"), asking for a detailed explanation of what's going on, and even trying something like "*[ELI5](#troubleshooting)*" for dense and complex code
 
 [![.img/copilot_fig6.png](.img/copilot_fig6.png)](#nolink)
 
@@ -101,14 +101,14 @@ If your results are similar to mine, Gemini got rid of all the comments we had; 
 There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this state-of-the-art technology, motivating you to integrate this into your routine and achieve great things!
 
 As far as next steps:
-- *Continue* (😅) to work through code examples and chat with Gemini through VSCode, get comfortable with this new AI copilot experience
-- The VSCode you just set up was not configured to execute any code, especially the simple Python code we had earlier; if you would like a live development environment, [click here to download Python for VSCode](https://code.visualstudio.com/docs/python/python-tutorial)
+- *Continue* (😅) to work through code examples and chat with Gemini in VSCode, get comfortable with this new AI copilot experience
+- The VSCode you just set up was not configured to execute any code, especially the simple Python code we had earlier; if you would like a live development environment, [click here to install Python for VSCode](https://code.visualstudio.com/docs/python/python-tutorial)
 - If you have <u><b>your own locally-hosted large language models</b></u>:
    - Click on the chat window's model dropdown menu
    - Select the gear icon to the right of "Gemini 2.0 Flash"
-   - In the `config.json` file that opens up, add information about your local model and save the file (must have OpenAI-compatible API like Llama.cpp, Ollama, and others)
+   - In the `config.json` file that opens up, add information about your local model and save the file (must have an OpenAI-compatible API like Llama.cpp, Ollama, and others)
    - Your local model will now be an option in the dropdown menu
-   - [<u>Don't have a local model setup yet? Click here for my tutorial to easily set one up!</u>](https://github.com/atet/llm)
+   - [Don't have a local model setup yet? Click here for my tutorial to easily set one up!](https://github.com/atet/llm)
 
 [![.img/copilot_fig7.jpg](.img/copilot_fig7.jpg)](#nolink)
 
@@ -120,8 +120,8 @@ As far as next steps:
 
 Issue | Solution
 --- | ---
-**"Explain Like I'm 5 (ELI5)"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways as necessary to be understood
-**"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your topic of interest
+**"Explain Like I'm 5 (ELI5)"** | Large language models like Gemini will never get tired or frustrated by questions; don't be afraid to continue to dive further into topics and have it explained in <u>as many different ways as necessary</u> to be understood
+**"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your specific topic of interest
 **"The quality of the responses from my local model isn't as good as Gemini's"** | It is highly likely that Google's model is [better](https://artificialanalysis.ai/models/comparisons/gemini-2-0-flash-vs-llama-3-3-instruct-70b) than most free, open-source models that can be hosted on a home computer or even a professional workstation
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
