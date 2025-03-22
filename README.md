@@ -136,7 +136,7 @@ Issue | Solution
 Continue's 90-second feature trailer | https://youtu.be/V3Yq6w9QaxI
 Atet's Local Large Language Model Tutorial | https://github.com/atet/llm 
 Google Gemini Web-Based Functionality (this is different than programmatic API access) | https://gemini.google.com/app
-Motivation | "*AI won't take your job. It's somebody using AI that will take your job.*" — Richard Baldwin
+Motivation | "*AI won't take your job. It's somebody using AI that will take your job.*" — [Richard Baldwin](https://github.com/atet/cite?tab=readme-ov-file#richard-baldwin-somebody-using-ai)
 
 [Back to Top](#atet--copilot)
 
