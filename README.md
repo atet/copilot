@@ -92,7 +92,7 @@ If your results are similar to mine, Gemini got rid of all the comments we had; 
 24. Highlight the new code, right click, select "Continue" → "Write Comments for this Code" 
 25. You can accept what Gemini documented for you or reject and try again for a slightly different result
 26. Highlight the code again and select "Continue" → "Add Highlighted Code to Context" (or `CTRL+L`) to move the selected code into the chat window
-17. Now you can have a discussion about the code and ask Gemini to do anything, like changing it (e.g., "*Change this function so that it subtracts instead*"), asking for a detailed explanation of what's going on, and even trying something like "*[ELI5](https://www.reddit.com/r/explainlikeimfive)*" for dense and complex code
+17. Now you can have a discussion about the code and ask Gemini to do anything, like changing it (e.g., "*Change this function so that it subtracts instead*"), asking for a detailed explanation of what's going on, and even trying something like "*[ELI5](#troubleshooting)*" for dense and complex code
 
 [![.img/copilot_fig6.png](.img/copilot_fig6.png)](#nolink)
 
@@ -120,7 +120,7 @@ As far as next steps:
 
 Issue | Solution
 --- | ---
-**"Explain Like I'm 5"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways as necessary to be understood
+**"Explain Like I'm 5 (ELI5)"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways as necessary to be understood
 **"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your topic of interest
 **"The quality of the responses from my local model isn't as good as Gemini's"** | It is highly likely that Google's model is [better](https://artificialanalysis.ai/models/comparisons/gemini-2-0-flash-vs-llama-3-3-instruct-70b) than most free, open-source models that can be hosted on a home computer or even a professional workstation
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
