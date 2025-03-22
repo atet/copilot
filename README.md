@@ -48,7 +48,7 @@ We will use the Continue extension to leverage Google Gemini to help us code wit
    - Provider: "Google Gemini API"
    - Model: "Gemini 2 Flash"
    - API key: "`<ENTER YOUR API KEY FROM STEP #3>`"
-14. Click on Connect and now you can ask questions like, "*Hi Gemini, what is my API usage rate limit?*"
+14. Click on Connect and now you can ask questions like, "*Hi Gemini, what is my API usage rate limit?*" (Note that your results will likely be different than mine)
 
 [![.img/copilot_fig3.png](.img/copilot_fig3.png)](#nolink)
 
@@ -64,6 +64,35 @@ It looks like Gemini's general knowledgebase doesn't have specific information a
 18. When you click add, Continue will upload the information from the URL you entered, depending on the amount of data, **this can take >5 minutes to finish indexing**; you can come back to this later and see that asking the same question again with the `@Gemini` tag will result in a much better answer
 
 [![.img/copilot_fig4.png](.img/copilot_fig4.png)](#nolink)
+
+## Programming with an AI Copilot
+
+19. Close any tabs in the main body to the right, right-click and select "New Text File" (or CTRL+N)
+20. Copy and paste the following incomplete Python function into the new text file:
+
+```python
+def add(x, y):
+    # DO SOMETHING
+
+add(1, 1) # Should print "2"
+```
+
+21. Highlight what you just pasted in the text file and right click on it, you'll see a menu option for "Continue" and "Fix this Code"
+22. When you click on "Fix this Code," after a few moments, you'll see that Gemini basically filled in the incomplete function for you!
+23. Go ahead and click on "Accept" with any changes Gemini suggests (Note that your results will likely be different than mine)
+
+[![.img/copilot_fig5.png](.img/copilot_fig5.png)](#nolink)
+
+## Documentation and More with an AI Copilot
+
+If your results are similar to mine, Gemini got rid of all the comments I had; let's see about Gemini automatically adding comments back for us.
+
+24. Highlight the new code, right click, select "Continue" → "Write Comments for this Code" 
+25. You can accept what Gemini documented for you or reject and try again for a slightly different result
+26. Highlight the code again and select "Continue" → "Add Highlighted Code to Context" (or `CTRL+L`) to move the selected code into the chat window
+17. Now you can have a discussion about the code and ask Gemini to do anything, like changing it (e.g., "*Change this function so that it subtracts instead*"), asking for a detailed explanation of what's going on, and even trying something like "*[ELI5](https://www.reddit.com/r/explainlikeimfive)*" for dense and complex code
+
+[![.img/copilot_fig6.png](.img/copilot_fig6.png)](#nolink)
 
 [Back to Top](#table-of-contents)
 
@@ -84,6 +113,7 @@ Google Gemini Web-Based Functionality (this is different than programmatic API a
 Issue | Solution
 --- | ---
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
+**"Explain Like I'm 5"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways you need to understand it
 
 [Back to Top](#table-of-contents)
 
