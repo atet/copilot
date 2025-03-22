@@ -112,7 +112,7 @@ As far as next steps:
 
 [![.img/copilot_fig7.jpg](.img/copilot_fig7.jpg)](#nolink)
 
-[Back to Top](https://github.com/atet/copilot/blob/main/README.md#atet--copilot)
+[Back to Top](#atet--copilot)
 
 ----------------------------------------------------------------------------
 
@@ -124,7 +124,7 @@ Issue | Solution
 **"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your topic of interest
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
-[Back to Top](https://github.com/atet/copilot/blob/main/README.md#atet--copilot)
+[Back to Top](#atet--copilot)
 
 ----------------------------------------------------------------------------
 
@@ -136,7 +136,7 @@ Continue's 90-second feature trailer | https://youtu.be/V3Yq6w9QaxI
 Atet's Local Large Language Model Tutorial | https://github.com/atet/llm 
 Google Gemini Web-Based Functionality (this is different than programmatic API access) | https://gemini.google.com/app
 
-[Back to Top](https://github.com/atet/copilot/blob/main/README.md#atet--copilot)
+[Back to Top](#atet--copilot)
 
 ----------------------------------------------------------------------------
 
