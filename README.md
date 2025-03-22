@@ -2,21 +2,21 @@
 
 [![.img/copilot_logo.png](.img/copilot_logo.png)](#nolink)
 
-# Artificial Intelligence Copilot to Help You Code
+# Artificial Intelligence Copilot to Help You Code...and More!
 
-Setup and some basic examples to get you started in <u><b>less than 10 minutes</b></u>; *programming will never be the same for you after this!*
+Setup and some basic examples to get you started in <u><b>less than 10 minutes</b></u>; *programming will never be the same for you after this...*
 
 In this short tutorial, you will:
-- Sign up for Google Gemini AI access
-- Setup Visual Studio Code (a.k.a. VSCode)
-- Download and setup the AI copilot with Gemini in VSCode
-- Perform five quick examples to demonstrate the power of this technology
+- Get Google AI access
+- Setup Visual Studio Code
+- Configure your new AI copilot
+- Perform five AI-assisted actions
 
-Note that I developed this tutorial on Windows 10; Windows 11 and MacOS should be very similar steps.
+*I developed this tutorial on Windows 10; Windows 11 and MacOS should be very similar steps*
 
 ## Google Gemini Access
 
-> If you have your own locally hosted models, you can skip steps #1-4 and on step #12, see [Next Steps](#conclusion-and-next-steps) for instructions
+> If you have your own locally hosted models, you can skip steps #1-4 and on step #12, see [Next Steps](#conclusion-and-next-steps) for specific instructions
 
 You have to get programmatic (i.e., API) access to use Google Gemini outside of their web-based, chat offering.
 
@@ -40,15 +40,15 @@ You can use VSCode without installing it by just downloading the "portable" `*.z
 
 ## AI Copilot Setup
 
-We will use the Continue extension to leverage Google Gemini to help us code within VSCode.
+We will use the Continue extension to leverage Google Gemini within VSCode.
 
-9. Search for "Conitue" in the Extensions search bar
+9. Search for "Continue" in the Extensions search bar
 10. Install the Continue extension from continue.dev
-11. Once it's done installing, click on the Continue icon in the left side menu
+11. Once the install completes, click on the Continue icon in the left side menu
 12. Click on "Select Model" and then "Add Chat Model"
 13. This will open a window that will allow you to select Gemini (see [Next Steps](#conclusion-and-next-steps) for local models):
    - Provider: "Google Gemini API"
-   - Model: "Gemini 2 Flash"
+   - Model: "Gemini 2.0 Flash"
    - API key: "`<ENTER YOUR API KEY FROM STEP #3>`"
 14. Click on Connect and now you can ask questions like, "*Hi Gemini, what is my API usage rate limit?*" (Note that your results will likely be different than mine)
 
@@ -79,7 +79,7 @@ def add(x, y):
 add(1, 1) # Should print "2"
 ```
 
-21. Highlight what you just pasted in the text file and right click on it, you'll see a menu option for "Continue" and "Fix this Code"
+21. Highlight what you just pasted in the text file and right click on it, you'll see a menu option for "Continue" and then select "Fix this Code"
 22. When you click on "Fix this Code," after a few moments, you'll see that Gemini basically filled in the incomplete function for you!
 23. Go ahead and click on "Accept" with any changes Gemini suggests (Note that your results will likely be different than mine)
 
@@ -87,7 +87,7 @@ add(1, 1) # Should print "2"
 
 ## Documentation and More with an AI Copilot
 
-If your results are similar to mine, Gemini got rid of all the comments I had; let's see about Gemini automatically adding comments back for us.
+If your results are similar to mine, Gemini got rid of all the comments we had; let's see about Gemini automatically adding comments back for us.
 
 24. Highlight the new code, right click, select "Continue" → "Write Comments for this Code" 
 25. You can accept what Gemini documented for you or reject and try again for a slightly different result
@@ -98,7 +98,7 @@ If your results are similar to mine, Gemini got rid of all the comments I had; l
 
 ## Conclusion and Next Steps
 
-There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this state-of-the-art technology and that you'll soon incorporate this into your workflow to achieve great things!
+There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this state-of-the-art technology, motivating you to integrate this into your routine and achieve great things!
 
 As far as next steps:
 - *Continue* (😅) to work through code examples and chat with Gemini through VSCode, get comfortable with this new AI copilot experience
@@ -136,6 +136,7 @@ Issue | Solution
 Continue's 90-second feature trailer | https://youtu.be/V3Yq6w9QaxI
 Atet's Local Large Language Model Tutorial | https://github.com/atet/llm 
 Google Gemini Web-Based Functionality (this is different than programmatic API access) | https://gemini.google.com/app
+Motivation | "*AI won't take your job. It's somebody using AI that will take your job.*" — Richard Baldwin
 
 [Back to Top](#atet--copilot)
 
