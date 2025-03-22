@@ -12,7 +12,7 @@ In this short tutorial, you will:
 - Download and setup the AI copilot with Gemini in VSCode
 - Perform five quick examples to demonstrate the power of this technology
 
-Note that I developed this tutorial on Windows 10, Windows 11 and MacOS should be very similar.
+Note that I developed this tutorial on Windows 10; Windows 11 and MacOS should be very similar steps.
 
 ## Google Gemini Access
 
@@ -101,27 +101,18 @@ If your results are similar to mine, Gemini got rid of all the comments I had; l
 There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this technology and that you'll soon incorporate this into your workflow to achieve great things!
 
 As far as next steps:
-- Continue to work through code examples and chat with Gemini through VSCode, this will get you used to this new copilot experience
-- VSCode was not configured to execute any code, especially the simple Python code we had earlier, see here to download Python and wire it up to your VSCode: https://code.visualstudio.com/docs/python/python-tutorial
-- If you have <u>your own locally-hosted large language models</u>:
-   - Click on the menu to pick models
-   - Select the gear icon to the right of Gemini 2.0 Flash
+- *Continue* (😅) to work through code examples and chat with Gemini through VSCode, get comfortable with this new AI copilot experience
+- The VSCode you just set up was not configured to execute any code, especially the simple Python code we had earlier; if you would like a live development environment, [click here to download Python for VSCode](https://code.visualstudio.com/docs/python/python-tutorial)
+- If you have <u><b>your own locally-hosted large language models</b></u>:
+   - Click on the chat window's model dropdown menu
+   - Select the gear icon to the right of "Gemini 2.0 Flash"
    - In the `config.json` file that opens up, add information about your local model and save the file (must have OpenAI-compatible API like Llama.cpp, Ollama, and others)
-   - Your local model will not be an option in the dropdown menu
+   - Your local model will now be an option in the dropdown menu
+   - [<u>Don't have a local model setup yet? Click here for my tutorial to easily set one up!</u>](https://github.com/atet/llm)
 
 [![.img/copilot_fig7.jpg](.img/copilot_fig7.jpg)](#nolink)
 
-[Back to Top](#artificial-intelligence-copilot-to-help-you-code)
-
-----------------------------------------------------------------------------
-
-## Other Resources
-
-**Description** | **URL Link**
---- | ---
-Google Gemini Web-Based Functionality (this is different than programmatic API access) | https://gemini.google.com/app
-
-[Back to Top](#table-of-contents)
+[Back to Top](https://github.com/atet/copilot/blob/main/README.md#atet--copilot)
 
 ----------------------------------------------------------------------------
 
@@ -129,10 +120,23 @@ Google Gemini Web-Based Functionality (this is different than programmatic API a
 
 Issue | Solution
 --- | ---
+**"Explain Like I'm 5"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways as necessary to be understood
+**"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your topic of interest
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
-**"Explain Like I'm 5"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways you need to understand it
 
-[Back to Top](#table-of-contents)
+[Back to Top](https://github.com/atet/copilot/blob/main/README.md#atet--copilot)
+
+----------------------------------------------------------------------------
+
+## Other Resources
+
+**Description** | **URL Link**
+--- | ---
+Continue's 90-second feature trailer | https://youtu.be/V3Yq6w9QaxI
+Atet's Local Large Language Model Tutorial | https://github.com/atet/llm 
+Google Gemini Web-Based Functionality (this is different than programmatic API access) | https://gemini.google.com/app
+
+[Back to Top](https://github.com/atet/copilot/blob/main/README.md#atet--copilot)
 
 ----------------------------------------------------------------------------
 
