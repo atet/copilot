@@ -98,7 +98,7 @@ If your results are similar to mine, Gemini got rid of all the comments I had; l
 
 ## Conclusion and Next Steps
 
-There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this technology and that you'll soon incorporate this into your workflow to achieve great things!
+There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this state-of-the-art technology and that you'll soon incorporate this into your workflow to achieve great things!
 
 As far as next steps:
 - *Continue* (😅) to work through code examples and chat with Gemini through VSCode, get comfortable with this new AI copilot experience
@@ -122,6 +122,7 @@ Issue | Solution
 --- | ---
 **"Explain Like I'm 5"** | Large language models like Gemini will never get tired or annoyed that you have more questions; don't be afraid to continue to dive further into topics and have it explained in as many different ways as necessary to be understood
 **"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your topic of interest
+**"The quality of the responses from my local model isn't as good as Gemini's"** | It is highly likely that Google's model is [better](https://artificialanalysis.ai/models/comparisons/gemini-2-0-flash-vs-llama-3-3-instruct-70b) than most free, open-source models that can be hosted on a home computer or even a professional workstation
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
 
 [Back to Top](#atet--copilot)
