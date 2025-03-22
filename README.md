@@ -16,6 +16,8 @@ Note that I developed this tutorial on Windows 10, Windows 11 and MacOS should b
 
 ## Google Gemini Access
 
+> If you have your own locally hosted models, you can skip steps #1-4 and on step #12, see [Next Steps](#conclusion-and-next-steps) for instructions
+
 You have to get programmatic (i.e., API) access to use Google Gemini outside of their web-based, chat offering.
 
 1. Go to Google AI Studio and sign in with your Google account at https://aistudio.google.com/welcome
@@ -44,7 +46,7 @@ We will use the Continue extension to leverage Google Gemini to help us code wit
 10. Install the Continue extension from continue.dev
 11. Once it's done installing, click on the Continue icon in the left side menu
 12. Click on "Select Model" and then "Add Chat Model"
-13. This will open a window that will allow you to select:
+13. This will open a window that will allow you to select Gemini (see [Next Steps](#conclusion-and-next-steps) for local models):
    - Provider: "Google Gemini API"
    - Model: "Gemini 2 Flash"
    - API key: "`<ENTER YOUR API KEY FROM STEP #3>`"
@@ -94,7 +96,22 @@ If your results are similar to mine, Gemini got rid of all the comments I had; l
 
 [![.img/copilot_fig6.png](.img/copilot_fig6.png)](#nolink)
 
-[Back to Top](#table-of-contents)
+## Conclusion and Next Steps
+
+There you have it, your own personal AI assistant for programming and more. I hope that these past 10 minutes gave you an excellent impression of what's to come with this technology and that you'll soon incorporate this into your workflow to achieve great things!
+
+As far as next steps:
+- Continue to work through code examples and chat with Gemini through VSCode, this will get you used to this new copilot experience
+- VSCode was not configured to execute any code, especially the simple Python code we had earlier, see here to download Python and wire it up to your VSCode: https://code.visualstudio.com/docs/python/python-tutorial
+- If you have <u>your own locally-hosted large language models</u>:
+   - Click on the menu to pick models
+   - Select the gear icon to the right of Gemini 2.0 Flash
+   - In the `config.json` file that opens up, add information about your local model and save the file (must have OpenAI-compatible API like Llama.cpp, Ollama, and others)
+   - Your local model will not be an option in the dropdown menu
+
+[![.img/copilot_fig7.jpg](.img/copilot_fig7.jpg)](#nolink)
+
+[Back to Top](#artificial-intelligence-copilot-to-help-you-code)
 
 ----------------------------------------------------------------------------
 
