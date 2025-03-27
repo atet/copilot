@@ -7,18 +7,18 @@
 Setup and some basic examples to get you started in <u><b>less than 10 minutes</b></u>; *programming will never be the same for you after this...*
 
 In this short tutorial, you will:
-- Get Google AI access
-- Setup Visual Studio Code
+- Get a <u><b>Free</b></u> AI access key
+- Set up Visual Studio Code
 - Configure your new AI copilot
 - Perform five AI-assisted actions
 
-*I developed this tutorial on Windows 10; Windows 11 and MacOS should be very similar steps*
+*I developed this tutorial on Windows 10; Windows 11 and MacOS should be very similar steps.*
 
 ## Google Gemini Access
 
 > If you have your own locally hosted models, you can skip steps #1-4 and on step #12, see [Next Steps](#conclusion-and-next-steps) for specific instructions
 
-You have to get programmatic (i.e., API) access to use Google Gemini outside of their web-based, chat offering.
+You have to get programmatic (i.e., API) access to use Google Gemini *outside* of their web-based, chat offering. Don't worry, <u>this is completely free and no credit card is required</u>!
 
 1. Go to Google AI Studio and sign in with your Google account at https://aistudio.google.com/welcome
 2. After signing in, click on "Get API key"
@@ -47,9 +47,9 @@ We will use the Continue extension to leverage Google Gemini within VSCode.
 11. Once the install completes, click on the Continue icon in the left side menu
 12. Click on "Select Model" and then "Add Chat Model"
 13. This will open a window that will allow you to select Gemini (see [Next Steps](#conclusion-and-next-steps) for local models):
-   - Provider: "Google Gemini API"
-   - Model: "Gemini 2.0 Flash"
-   - API key: "`<ENTER YOUR API KEY FROM STEP #3>`"
+      - Provider: "Google Gemini API"
+      - Model: "Gemini 2.0 Flash"
+      - API key: "`<ENTER YOUR API KEY FROM STEP #3>`"
 14. Click on Connect and now you can ask questions like, "*Hi Gemini, what is my API usage rate limit?*" (Note that your results will likely be different than mine)
 
 [![.img/copilot_fig3.png](.img/copilot_fig3.png)](#nolink)
@@ -61,8 +61,8 @@ It looks like Gemini's general knowledgebase doesn't have specific information a
 15. Type an ampersand ("`@`") and click on Docs in the menu that pops up
 16. Scroll to the bottom of the Docs list and choose "+ Add Docs"
 17. In the window that pops up, let's add a web link to Google's documentation on Gemini API limits:
-   - Title: "Gemini"
-   - Start URL: "https://ai.google.dev/gemini-api/docs/rate-limits"
+      - Title: "Gemini"
+      - Start URL: "https://ai.google.dev/gemini-api/docs/rate-limits"
 18. When you click add, Continue will upload the information from the URL you entered, depending on the amount of data, **this can take >5 minutes to finish indexing**; you can come back to this later and see that asking the same question again with the `@Gemini` tag will result in a much better answer
 
 [![.img/copilot_fig4.png](.img/copilot_fig4.png)](#nolink)
@@ -72,12 +72,12 @@ It looks like Gemini's general knowledgebase doesn't have specific information a
 19. Close any tabs in the main body to the right, right-click and select "New Text File" (or `CTRL+N`)
 20. Copy and paste the following **incomplete** Python function into the new text file:
 
-```python
-def add(x, y):
-    # DO SOMETHING
+      ```python
+      def add(x, y):
+         # DO SOMETHING
 
-add(1, 1) # Should print "2"
-```
+      add(1, 1) # Should print "2"
+      ```
 
 21. Highlight what you just pasted in the text file and right click on it, you'll see a menu option for "Continue" and then select "Fix this Code"
 22. When you click on "Fix this Code," after a few moments, you'll see that Gemini basically filled in the incomplete function for you!
@@ -121,6 +121,7 @@ As far as next steps:
 Issue | Solution
 --- | ---
 **"Explain Like I'm 5 (ELI5)"** | Large language models like Gemini will never get tired or frustrated by questions; don't be afraid to continue to dive further into topics and have it explained in <u>as many different ways as necessary</u> to be understood
+**"My local model isn't connecting"** | • "`apiBase`" is case sensitive</br>• You may only need the IP address and port number, no need for `.../v1/completions` or anything else
 **"The models are starting to forget things from earlier in the conversation"** | These models have a limited amount of conversational memory (i.e., "context length") and can be worked around by starting a new conversation that is more focused on your specific topic of interest
 **"The quality of the responses from my local model isn't as good as Gemini's"** | It is highly likely that Google's model is [better](https://artificialanalysis.ai/models/comparisons/gemini-2-0-flash-vs-llama-3-3-instruct-70b) than most free, open-source models that can be hosted on a home computer or even a professional workstation
 **"It's not working!"** | This concise tutorial has distilled hours of sweat, tears, and troubleshooting; _it can't not work_
